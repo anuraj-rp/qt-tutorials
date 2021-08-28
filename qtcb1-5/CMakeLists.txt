@@ -11,9 +11,9 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Qt5Core)
+find_package(Qt6Core)
 
 add_executable(qtcb1-5
   main.cpp
 )
-target_link_libraries(qtcb1-5 Qt5::Core)
+target_link_libraries(qtcb1-5 Qt6::Core)
